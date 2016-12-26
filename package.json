@@ -1,0 +1,22 @@
+{
+  "name": "easyzip",
+  "version": "1.0.0",
+  "description": "easy to zip and unzip on node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Apcan/easyzip.git"
+  },
+  "keywords": [
+    "easyzip"
+  ],
+  "author": "apcan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apcan/easyzip/issues"
+  },
+  "homepage": "https://github.com/Apcan/easyzip#readme"
+}
