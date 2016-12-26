@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Apcan/easyzip/issues"
   },
-  "homepage": "https://github.com/Apcan/easyzip#readme"
+  "homepage": "https://github.com/Apcan/easyzip#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "moment": "^2.17.1"
+  }
 }
