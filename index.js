@@ -5,7 +5,7 @@ const moment = require('moment'), temp_dir = require('os').tmpdir();
 const Promise = require('bluebird')
 
 function exists(path) {
-    return fs.existsSync(path) || path.existsSync(path);
+    return fs.existsSync(path);
 }
 function isFile(path) {
     return exists(path) && fs.statSync(path).isFile();
@@ -58,3 +58,8 @@ exports.dirzip = function (dir_path, new_path, callback) {
 }
 exports.dirzipAsync = Promise.promisify(this.dirzip)
 
+this.dirzipAsync('', '').then(path => {
+    console.log(path)
+}).catch(err => {
+    console.log(err)
+})
