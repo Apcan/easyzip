@@ -5,8 +5,6 @@ const moment = require('moment'), temp_dir = require('os').tmpdir();
 const Promise = require('bluebird');
 const prog = path.resolve(__dirname, 'lib', 'prog'), zip_win = prog + path.sep + '7za.exe';
 
-console.log(prog)
-
 function exists(path) {
     return fs.existsSync(path);
 }

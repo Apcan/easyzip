@@ -1,6 +1,6 @@
 {
   "name": "easyzip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "easy to zip and unzip on node",
   "main": "index.js",
   "scripts": {
