@@ -1,3 +1,6 @@
+install：npm i -save easyzip
+
+
 # easyzip
 
 ```var easyzip=require('easyzip');```
